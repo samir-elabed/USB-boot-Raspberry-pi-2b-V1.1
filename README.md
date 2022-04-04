@@ -1,5 +1,5 @@
 # USB-boot-Raspberry-pi-2b-V1.1
-## Step 1.1
+## Step 1
 
 in Windows:
 
@@ -7,14 +7,14 @@ Download latest Raspbian Buster from images server
 Download Win32 Disk Imager from this link
 Flash Buster on a 16/324GB SD with Win32 Disk Imager
 Add an empty file named 'ssh' to the boot (VFAT) partition of your SD card to enable SSH
-##Step 1.2
+##Step 2
 
 in RPi:
 
 Insert the SD into the Raspberry and power on
 Complete the base installation in the normal way
 Power off RPi
-## Step 1.3
+## Step 3
 
 in Windows:
 
@@ -23,7 +23,7 @@ Connect your SSD to USB
 If new, quick format it as FAT32
 Flash Buster_installed image on the SSD with Win32 Disk Imager
 Disconnect the SSD
-## Step 1.4
+## Step 4
 
 in RPi
 
@@ -79,7 +79,7 @@ sudo ls /dev/disk/by-partuuid
 
 For sure now the PARTUUID are different.
 
-## Step 1.5
+## Step 5
 
 Open a terminal and type
 
@@ -95,7 +95,7 @@ pi@raspberrypi:~ $ blkid
 
 Here you find the SD PARTUUID (ex. 2f1ce4b1-02)
 
-## Step 1.6
+## Step 6
 
 Now type
 
