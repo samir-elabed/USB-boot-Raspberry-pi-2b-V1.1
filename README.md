@@ -123,6 +123,6 @@ If all is OK Raspberry should now boot from SSD.
 
 Note that all above doesn’t compromise the original SD.
 
-You can at anytime, simply running STEP 1.5 with the original SD’s PARTUUID, revert to SD boot.
+You can at anytime, simply running STEP 5 with the original SD’s PARTUUID, revert to SD boot.
 
 Done!
