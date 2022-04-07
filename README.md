@@ -7,7 +7,8 @@ Download latest Raspbian Buster from images server
 Download Win32 Disk Imager from this link
 Flash Buster on a 16/324GB SD with Win32 Disk Imager
 Add an empty file named 'ssh' to the boot (VFAT) partition of your SD card to enable SSH
-##Step 2
+
+## Step 2
 
 in RPi:
 
